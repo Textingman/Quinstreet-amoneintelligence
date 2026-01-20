@@ -323,6 +323,11 @@ export default function TermsPage() {
               <p className="text-gray-400">
                 support@trylendplan.com
               </p>
+              <p className="text-gray-400 mt-4">
+                6 Themistokli Dervi<br />
+                Flat/Office 4D<br />
+                1066 Nicosia, Cyprus
+              </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">

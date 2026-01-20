@@ -75,6 +75,12 @@ export default function AboutPage() {
           <p className="text-lg text-gray-600 mb-4">
             We understand that every abandoned interaction represents lost revenue. That's why we've built a platform that automatically reaches out to users at the perfect moment, bringing them back to complete their journey. Our team is dedicated to helping you maximize conversions through intelligent, automated outreach.
           </p>
+
+          <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-8">Our Address</h2>
+          <p className="text-lg text-gray-600">
+            6 Themistokli Dervi, Flat/Office 4D<br />
+            1066 Nicosia, Cyprus
+          </p>
         </div>
       </section>
 
@@ -142,6 +148,11 @@ export default function AboutPage() {
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
                 support@trylendplan.com
+              </p>
+              <p className="text-gray-400 mt-4">
+                6 Themistokli Dervi<br />
+                Flat/Office 4D<br />
+                1066 Nicosia, Cyprus
               </p>
             </div>
           </div>
