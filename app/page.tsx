@@ -230,7 +230,7 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@trylendplan.com
+                support@uselendplan.com
               </p>
               <p className="text-gray-400 mt-4">
                 6 Themistokli Dervi<br />

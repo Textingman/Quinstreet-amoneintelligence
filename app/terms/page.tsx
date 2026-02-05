@@ -270,9 +270,9 @@ export default function TermsPage() {
             If you have any questions about these Terms, please contact us:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:legal@trylendplan.com" className="text-[#d364a4] hover:text-[#c24d93]">legal@trylendplan.com</a></p>
-            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@trylendplan.com" className="text-[#d364a4] hover:text-[#c24d93]">support@trylendplan.com</a></p>
-            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#d364a4] hover:text-[#c24d93]">https://trylendplan.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:legal@uselendplan.com" className="text-[#d364a4] hover:text-[#c24d93]">legal@uselendplan.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@uselendplan.com" className="text-[#d364a4] hover:text-[#c24d93]">support@uselendplan.com</a></p>
+            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#d364a4] hover:text-[#c24d93]">https://uselendplan.com</a></p>
           </div>
 
         </div>
@@ -321,7 +321,7 @@ export default function TermsPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@trylendplan.com
+                support@uselendplan.com
               </p>
               <p className="text-gray-400 mt-4">
                 6 Themistokli Dervi<br />
