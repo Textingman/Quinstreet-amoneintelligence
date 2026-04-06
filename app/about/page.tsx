@@ -10,7 +10,7 @@ export default function AboutPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-2xl font-bold text-gray-900">LendPlan</span>
+                <span className="text-2xl font-bold text-gray-900">AmOne AI</span>
               </Link>
             </div>
             <div className="hidden md:block">
@@ -40,10 +40,10 @@ export default function AboutPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
           <h1 className="text-5xl font-extrabold text-gray-900 mb-6">
-            About LendPlan
+            About AmOne AI
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We're building the future of automated customer outreach, helping businesses re-engage users and drive meaningful conversations through SMS.
+            We help businesses nurture customers into live phone calls — automatically. AmOne AI uses intelligent SMS outreach to build relationships and get your phone ringing with people who are ready to talk.
           </p>
         </div>
       </section>
@@ -53,33 +53,34 @@ export default function AboutPage() {
         <div className="bg-white rounded-xl shadow-lg p-8 md:p-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
           <p className="text-lg text-gray-600 mb-4">
-            LendPlan was created to solve a critical problem: businesses lose customers during the conversion process. We help you automatically re-engage users who abandon forms, forget to complete documents, or go inactive.
+            AmOne AI was built to solve one of the biggest problems in business: customers who show interest but never follow through. Every day, businesses lose revenue because prospects fill out a form or visit a page — and then disappear.
           </p>
           <p className="text-lg text-gray-600 mb-8">
-            Traditional follow-up methods like email often go unnoticed. We've built a platform that reaches customers directly on their mobile devices through SMS, driving them back to complete their journey.
+            We fix that. Our platform automatically sends personalized SMS messages to those customers, nurturing the relationship and prompting them to pick up the phone and call you. No manual follow-up. No missed opportunities. Just more inbound calls.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mb-6">What We Do</h2>
           <p className="text-lg text-gray-600 mb-4">
-            LendPlan provides an automated SMS outreach platform that helps businesses recover abandoned interactions and drive customer engagement. Our service includes:
+            AmOne AI provides an automated SMS-to-call platform that helps businesses nurture customers and convert interest into live phone conversations. Our service includes:
           </p>
           <ul className="list-disc list-inside text-lg text-gray-600 mb-8 space-y-2">
-            <li>Automated follow-up campaigns for abandoned forms</li>
-            <li>Document completion reminders via SMS</li>
-            <li>Intelligent timing and scheduling</li>
-            <li>Personalized messaging templates</li>
-            <li>Real-time engagement tracking and analytics</li>
+            <li>Automated SMS follow-ups that prompt customers to call</li>
+            <li>Intelligent timing to reach customers when they're most likely to answer</li>
+            <li>Personalized call-to-action messaging</li>
+            <li>Multi-step follow-up sequences</li>
+            <li>Real-time call tracking and analytics</li>
           </ul>
 
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Why Choose Us</h2>
           <p className="text-lg text-gray-600 mb-4">
-            We understand that every abandoned interaction represents lost revenue. That's why we've built a platform that automatically reaches out to users at the perfect moment, bringing them back to complete their journey. Our team is dedicated to helping you maximize conversions through intelligent, automated outreach.
+            Phone calls close deals. Studies show that customers contacted by phone are 8x more likely to convert than those reached by email alone. AmOne AI bridges the gap — using SMS to nurture your customers and get them on the phone, where your team can build relationships and close deals. We're dedicated to helping you maximize inbound call volume through intelligent, automated outreach.
           </p>
 
           <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-8">Our Address</h2>
           <p className="text-lg text-gray-600">
-            6 Themistokli Dervi, Flat/Office 4D<br />
-            1066 Nicosia, Cyprus
+            950 Tower Lane, Suite 1200<br />
+            Foster City, CA 94404<br />
+            United States
           </p>
         </div>
       </section>
@@ -92,7 +93,7 @@ export default function AboutPage() {
               Ready to Boost Your Conversions?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join businesses that trust LendPlan to automate customer outreach and drive meaningful conversations.
+              Join businesses using AmOne AI to automatically nurture customers and convert interest into live phone calls — without lifting a finger.
             </p>
             <Link
               href="/signup"
@@ -109,7 +110,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">LendPlan</h3>
+              <h3 className="text-xl font-bold mb-4">AmOne AI</h3>
               <p className="text-gray-400">
                 Automated customer outreach that drives results.
               </p>
@@ -147,17 +148,17 @@ export default function AboutPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@uselendplan.com
+                support@amoneai.com
               </p>
               <p className="text-gray-400 mt-4">
-                6 Themistokli Dervi<br />
-                Flat/Office 4D<br />
-                1066 Nicosia, Cyprus
+                950 Tower Lane, Suite 1200<br />
+                Foster City, CA 94404<br />
+                United States
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 LendPlan. All rights reserved.</p>
+            <p>&copy; 2025 AmOne AI. All rights reserved.</p>
           </div>
         </div>
       </footer>

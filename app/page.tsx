@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { CheckCircle, Zap, Users } from 'lucide-react';
+import { Phone, PhoneCall, PhoneIncoming, Clock, Heart, TrendingUp } from 'lucide-react';
 
 export default function HomePage() {
   return (
@@ -11,7 +11,7 @@ export default function HomePage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-2xl font-bold text-gray-900">LendPlan</span>
+                <span className="text-2xl font-bold text-gray-900">AmOne AI</span>
               </Link>
             </div>
             <div className="hidden md:block">
@@ -40,19 +40,25 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
+          <div className="flex justify-center mb-6">
+            <div className="w-20 h-20 bg-gray-900 rounded-full flex items-center justify-center">
+              <PhoneCall className="w-10 h-10 text-white" />
+            </div>
+          </div>
           <h1 className="text-5xl font-extrabold text-gray-900 sm:text-6xl md:text-7xl">
-            Automate Customer Outreach
-            <span className="block text-gray-900">Drive Meaningful Conversations</span>
+            Nurture Customers Into
+            <span className="block text-gray-900">Live Phone Calls</span>
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-xl text-gray-600">
-            Follow up with users automatically through SMS and drive engagement. Turn abandoned interactions into completed conversions with intelligent, automated outreach.
+            AmOne AI automatically follows up with your customers via SMS and guides them to call you. Build lasting relationships and convert interest into real conversations that close deals.
           </p>
           <div className="mt-10 flex justify-center gap-4">
             <Link
               href="/signup"
-              className="px-8 py-4 bg-gray-900 text-white text-lg font-semibold rounded-lg hover:bg-gray-800 transition-colors shadow-lg"
+              className="px-8 py-4 bg-gray-900 text-white text-lg font-semibold rounded-lg hover:bg-gray-800 transition-colors shadow-lg flex items-center gap-2"
             >
-              Get Started Free
+              <Phone className="w-5 h-5" />
+              Start Nurturing Customers
             </Link>
             <Link
               href="/about"
@@ -64,12 +70,32 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Stats Section */}
+      <section className="bg-gray-900 py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid md:grid-cols-3 gap-8 text-center">
+            <div>
+              <p className="text-5xl font-extrabold text-white">3x</p>
+              <p className="mt-2 text-lg text-gray-300">More calls from existing customers</p>
+            </div>
+            <div>
+              <p className="text-5xl font-extrabold text-white">5 min</p>
+              <p className="mt-2 text-lg text-gray-300">Average response time after SMS</p>
+            </div>
+            <div>
+              <p className="text-5xl font-extrabold text-white">60%</p>
+              <p className="mt-2 text-lg text-gray-300">Of customers re-engaged via SMS call back</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900">Why Choose LendPlan?</h2>
+          <h2 className="text-4xl font-bold text-gray-900">Why AmOne AI Drives More Calls</h2>
           <p className="mt-4 text-xl text-gray-600">
-            Trusted by businesses to re-engage customers and drive conversions
+            Automated SMS outreach that nurtures relationships and gets your phone ringing
           </p>
         </div>
 
@@ -77,87 +103,96 @@ export default function HomePage() {
           {/* Feature 1 */}
           <div className="bg-white p-8 rounded-xl border border-gray-200 hover:border-gray-900 transition-all">
             <div className="flex justify-center mb-4">
-              <CheckCircle className="w-12 h-12 text-gray-900" />
+              <PhoneIncoming className="w-12 h-12 text-gray-900" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
-              Automated Follow-Ups
+              Instant Call-Back Prompts
             </h3>
             <p className="text-gray-600 text-center">
-              Automatically reach out to users who haven't completed their journey, bringing them back to finish what they started.
+              Send SMS messages that include your phone number and a direct call-to-action, making it effortless for customers to call you back immediately.
             </p>
           </div>
 
           {/* Feature 2 */}
           <div className="bg-white p-8 rounded-xl border border-gray-200 hover:border-gray-900 transition-all">
             <div className="flex justify-center mb-4">
-              <Zap className="w-12 h-12 text-gray-900" />
+              <Heart className="w-12 h-12 text-gray-900" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
-              Intelligent Timing
+              Relationship-First Outreach
             </h3>
             <p className="text-gray-600 text-center">
-              Send messages at the perfect moment to maximize engagement and response rates with smart scheduling.
+              Build genuine connections with personalized, thoughtful messages that show customers you care — not just automated blasts.
             </p>
           </div>
 
           {/* Feature 3 */}
           <div className="bg-white p-8 rounded-xl border border-gray-200 hover:border-gray-900 transition-all">
             <div className="flex justify-center mb-4">
-              <Users className="w-12 h-12 text-gray-900" />
+              <TrendingUp className="w-12 h-12 text-gray-900" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 text-center mb-3">
-              Personalized Messaging
+              Higher Connect Rates
             </h3>
             <p className="text-gray-600 text-center">
-              Craft personalized outreach campaigns that resonate with your users and drive meaningful conversations.
+              SMS open rates are 98%. When your message lands in their texts, they see it — and they call. Turn warm interest into live conversations.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Our Solutions Section */}
+      {/* How It Works Section */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900">How It Works</h2>
             <p className="mt-4 text-xl text-gray-600">
-              Automated outreach that drives real results
+              From first touch to live call — automatically
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-16 items-start">
-            {/* Solutions List */}
+            {/* Steps */}
             <div className="space-y-12">
-              {/* Solution 1 */}
-              <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Abandoned Form Recovery</h3>
-                <p className="text-lg text-gray-600 leading-relaxed">
-                  Automatically follow up with users who started but didn't complete your forms. Send personalized SMS reminders that bring them back to finish their application.
-                </p>
+              {/* Step 1 */}
+              <div className="flex gap-6">
+                <div className="flex-shrink-0 w-12 h-12 bg-gray-900 text-white rounded-full flex items-center justify-center text-xl font-bold">1</div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Customer Shows Interest</h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    A prospect fills out a form, visits your page, or starts an application — then leaves without calling.
+                  </p>
+                </div>
               </div>
 
-              {/* Solution 2 */}
-              <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Document Completion Reminders</h3>
-                <p className="text-lg text-gray-600 leading-relaxed">
-                  Send timely reminders for pending document signatures and submissions. Increase completion rates by reaching users directly on their mobile devices.
-                </p>
+              {/* Step 2 */}
+              <div className="flex gap-6">
+                <div className="flex-shrink-0 w-12 h-12 bg-gray-900 text-white rounded-full flex items-center justify-center text-xl font-bold">2</div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">AmOne AI Sends an SMS</h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    Within minutes, we automatically send a personalized text message with your phone number and a warm, compelling reason to call now.
+                  </p>
+                </div>
               </div>
 
-              {/* Solution 3 */}
-              <div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Engagement Campaigns</h3>
-                <p className="text-lg text-gray-600 leading-relaxed">
-                  Create automated SMS campaigns to re-engage inactive users, share updates, and drive them back into your conversion funnel with targeted messaging.
-                </p>
+              {/* Step 3 */}
+              <div className="flex gap-6">
+                <div className="flex-shrink-0 w-12 h-12 bg-gray-900 text-white rounded-full flex items-center justify-center text-xl font-bold">3</div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Your Phone Rings</h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    The customer calls you directly. No more chasing — just inbound calls from people who are ready to talk.
+                  </p>
+                </div>
               </div>
             </div>
 
-            {/* Single Image */}
+            {/* Image */}
             <div className="rounded-lg overflow-hidden sticky top-8 flex items-start justify-center">
               <Image 
                 src="/Lendplan.png" 
-                alt="LendPlan Solutions" 
+                alt="AmOne AI Customer Nurturing" 
                 width={350} 
                 height={350}
                 className="w-auto h-auto object-contain max-w-full"
@@ -171,17 +206,19 @@ export default function HomePage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="bg-gray-900 rounded-2xl shadow-2xl overflow-hidden">
           <div className="px-6 py-16 sm:px-12 sm:py-20 text-center">
+            <PhoneCall className="w-16 h-16 text-white mx-auto mb-6" />
             <h2 className="text-4xl font-bold text-white mb-6">
-              Ready to Boost Your Conversions?
+              Ready to Get Your Phone Ringing?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join businesses that trust LendPlan to automate customer outreach and drive meaningful conversations.
+              Join businesses using AmOne AI to automatically nurture customers and convert interest into live phone calls — without lifting a finger.
             </p>
             <Link
               href="/signup"
-              className="inline-block px-8 py-4 bg-white text-gray-900 text-lg font-semibold rounded-lg hover:bg-gray-100 transition-colors shadow-lg"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-white text-gray-900 text-lg font-semibold rounded-lg hover:bg-gray-100 transition-colors shadow-lg"
             >
-              Get Started Today
+              <Phone className="w-5 h-5" />
+              Start Nurturing Customers Today
             </Link>
           </div>
         </div>
@@ -192,9 +229,9 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">LendPlan</h3>
+              <h3 className="text-xl font-bold mb-4">AmOne AI</h3>
               <p className="text-gray-400">
-                Automated customer outreach that drives results.
+                Automated SMS outreach that nurtures customers and drives phone calls.
               </p>
             </div>
             <div>
@@ -230,17 +267,17 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@uselendplan.com
+                support@amoneai.com
               </p>
               <p className="text-gray-400 mt-4">
-                6 Themistokli Dervi<br />
-                Flat/Office 4D<br />
-                1066 Nicosia, Cyprus
+                950 Tower Lane, Suite 1200<br />
+                Foster City, CA 94404<br />
+                United States
               </p>
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 LendPlan. All rights reserved.</p>
+            <p>&copy; 2025 AmOne AI. All rights reserved.</p>
           </div>
         </div>
       </footer>
