@@ -11,7 +11,7 @@ export default function HomePage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-2xl font-bold text-gray-900">AmOne AI</span>
+                <span className="text-2xl font-bold text-gray-900">Amone Intelligence</span>
               </Link>
             </div>
             <div className="hidden md:block">
@@ -50,7 +50,7 @@ export default function HomePage() {
             <span className="block text-gray-900">Live Phone Calls</span>
           </h1>
           <p className="mt-6 max-w-2xl mx-auto text-xl text-gray-600">
-            AmOne AI automatically follows up with your customers via SMS and guides them to call you. Build lasting relationships and convert interest into real conversations that close deals.
+            Amone Intelligence automatically follows up with your customers via SMS and guides them to call you. Build lasting relationships and convert interest into real conversations that close deals.
           </p>
           <div className="mt-10 flex justify-center gap-4">
             <Link
@@ -93,7 +93,7 @@ export default function HomePage() {
       {/* Features Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900">Why AmOne AI Drives More Calls</h2>
+          <h2 className="text-4xl font-bold text-gray-900">Why Amone Intelligence Drives More Calls</h2>
           <p className="mt-4 text-xl text-gray-600">
             Automated SMS outreach that nurtures relationships and gets your phone ringing
           </p>
@@ -169,7 +169,7 @@ export default function HomePage() {
               <div className="flex gap-6">
                 <div className="flex-shrink-0 w-12 h-12 bg-gray-900 text-white rounded-full flex items-center justify-center text-xl font-bold">2</div>
                 <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">AmOne AI Sends an SMS</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Amone Intelligence Sends an SMS</h3>
                   <p className="text-lg text-gray-600 leading-relaxed">
                     Within minutes, we automatically send a personalized text message with your phone number and a warm, compelling reason to call now.
                   </p>
@@ -192,7 +192,7 @@ export default function HomePage() {
             <div className="rounded-lg overflow-hidden sticky top-8 flex items-start justify-center">
               <Image 
                 src="/Lendplan.png" 
-                alt="AmOne AI Customer Nurturing" 
+                alt="Amone Intelligence Customer Nurturing" 
                 width={350} 
                 height={350}
                 className="w-auto h-auto object-contain max-w-full"
@@ -211,7 +211,7 @@ export default function HomePage() {
               Ready to Get Your Phone Ringing?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Join businesses using AmOne AI to automatically nurture customers and convert interest into live phone calls — without lifting a finger.
+              Join businesses using Amone Intelligence to automatically nurture customers and convert interest into live phone calls — without lifting a finger.
             </p>
             <Link
               href="/signup"
@@ -229,7 +229,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">AmOne AI</h3>
+              <h3 className="text-xl font-bold mb-4">Amone Intelligence</h3>
               <p className="text-gray-400">
                 Automated SMS outreach that nurtures customers and drives phone calls.
               </p>
@@ -267,7 +267,7 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@amoneai.com
+                support@amoneintelligence.com
               </p>
               <p className="text-gray-400 mt-4">
                 950 Tower Lane, Suite 1200<br />
@@ -277,7 +277,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 AmOne AI. All rights reserved.</p>
+            <p>&copy; 2025 Amone Intelligence. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -45,7 +45,7 @@ export default function SignupPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-2xl font-bold text-gray-900">AmOne AI</span>
+                <span className="text-2xl font-bold text-gray-900">Amone Intelligence</span>
               </Link>
             </div>
             <div className="hidden md:block">
@@ -76,7 +76,7 @@ export default function SignupPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl font-extrabold text-gray-900 mb-4">
-              Get Started with AmOne AI
+              Get Started with Amone Intelligence
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Fill out the form below and we'll get back to you within 24 hours to set up your automated outreach campaigns.
@@ -109,7 +109,7 @@ export default function SignupPage() {
           ) : (
             <>
               <div className="mb-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-2">Sign Up for AmOne AI</h2>
+                <h2 className="text-2xl font-bold text-gray-900 mb-2">Sign Up for Amone Intelligence</h2>
                 <p className="text-gray-600">
                   Complete the form below to start automating your customer outreach and driving conversions.
                 </p>
@@ -215,7 +215,7 @@ export default function SignupPage() {
                     value={formData.message}
                     onChange={handleChange}
                     className="block w-full px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#d364a4] focus:border-transparent"
-                     placeholder="How do you plan to use AmOne AI?"
+                     placeholder="How do you plan to use Amone Intelligence?"
                   />
                 </div>
 
@@ -230,7 +230,7 @@ export default function SignupPage() {
                         className="mt-1 h-4 w-4 text-gray-900 focus:ring-gray-900 border-gray-300 rounded flex-shrink-0"
                       />
                       <label htmlFor="sms-consent" className="ml-3 text-sm leading-relaxed">
-                        By checking this box and submitting this form, you agree to receive customer care text messages from AmOne AI. I understand I may opt out of SMS communication by replying 'STOP'. Reply HELP or email support@amoneai.com for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form or use our services. All messages will be handled by AmOne AI.
+                        By checking this box and submitting this form, you agree to receive customer care text messages from Amone Intelligence. I understand I may opt out of SMS communication by replying 'STOP'. Reply HELP or email support@amoneintelligence.com for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form or use our services. All messages will be handled by Amone Intelligence.
                       </label>
                     </div>
                   </div>
@@ -294,7 +294,7 @@ export default function SignupPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@amoneai.com
+                support@amoneintelligence.com
               </p>
             </div>
             <div>
@@ -330,7 +330,7 @@ export default function SignupPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@amoneai.com
+                support@amoneintelligence.com
               </p>
               <p className="text-gray-400 mt-4">
                 950 Tower Lane, Suite 1200<br />
@@ -340,7 +340,7 @@ export default function SignupPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 AmOne AI. All rights reserved.</p>
+            <p>&copy; 2025 Amone Intelligence. All rights reserved.</p>
           </div>
         </div>
       </footer>

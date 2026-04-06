@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AmOne AI - SMS Verification & Customer Engagement",
-  description: "Verify your customers with confidence. AmOne AI provides reliable SMS verification and customer engagement solutions for businesses.",
+  title: "Amone Intelligence - SMS Verification & Customer Engagement",
+  description: "Verify your customers with confidence. Amone Intelligence provides reliable SMS verification and customer engagement solutions for businesses.",
 };
 
 export default function RootLayout({
