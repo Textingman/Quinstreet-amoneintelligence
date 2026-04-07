@@ -79,7 +79,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-8">Our Address</h2>
           <p className="text-lg text-gray-600">
             950 Tower Lane, Suite 1200<br />
-            Foster City, CA 94404<br />
+            Foster City, California 94404<br />
             United States
           </p>
         </div>
@@ -152,7 +152,7 @@ export default function AboutPage() {
               </p>
               <p className="text-gray-400 mt-4">
                 950 Tower Lane, Suite 1200<br />
-                Foster City, CA 94404<br />
+                Foster City, California 94404<br />
                 United States
               </p>
             </div>

@@ -243,7 +243,7 @@ export default function PrivacyPage() {
               </p>
               <p className="text-gray-400 mt-4">
                 950 Tower Lane, Suite 1200<br />
-                Foster City, CA 94404<br />
+                Foster City, California 94404<br />
                 United States
               </p>
             </div>
